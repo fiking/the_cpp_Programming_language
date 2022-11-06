@@ -33,5 +33,14 @@ int main() {
             break;
     }
     cout << in << "in = " << cm << "cm\n";
+
+    string str;
+    cout << "Please enter your name\n";
+    cin >> str;
+    cout << "Hello, " << str << "!\n";
+
+    cout << "Please enter your name\n";
+    getline(cin, str);
+    cout << "Hello, " << str << "!\n";
     return 0;
 }
