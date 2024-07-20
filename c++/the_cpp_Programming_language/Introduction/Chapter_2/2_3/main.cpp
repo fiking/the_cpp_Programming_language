@@ -1,3 +1,6 @@
+// cmake .
+// make
+
 #include <iostream>
 
 using namespace std;
